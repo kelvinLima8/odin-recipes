@@ -14,3 +14,21 @@ li  {
     color:crimson
 }
 /* esto es un comentario, segui estudiando */
+#titulo {
+    border: 6px thistle groove;
+}
+/* 
+dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden.
+*/
+#papasfritas {
+    border: 2px coral ridge;
+}
+#papasalhorno {
+    border: 2px brown inset ;
+}
+#fideos {
+    border: 2px chartreuse outset ;
+}
+#titulo {
+    font-size: 77px;
+}
