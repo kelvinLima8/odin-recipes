@@ -1,5 +1,5 @@
 #titulo {
-    color:rebeccapurple
+  background-color: cadetblue;  color:rebeccapurple 
 }
 li  {
     color: deeppink;
@@ -15,7 +15,7 @@ li  {
 }
 /* esto es un comentario, segui estudiando */
 #titulo {
-    border: 6px thistle groove;
+    border: 6px thistle outset;
 }
 /* 
 dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden.
@@ -29,6 +29,11 @@ dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden.
 #fideos {
     border: 2px chartreuse outset ;
 }
-#titulo {
-    font-size: 77px;
+* {
+    font-size: 70px;
+}
+* {
+    background-image: url("./images/fuego.webp"); 
+    background-size:auto;
+    height: 100px;
 }
