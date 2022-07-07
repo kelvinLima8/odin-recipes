@@ -15,19 +15,19 @@ li  {
 }
 /* esto es un comentario, segui estudiando */
 #titulo {
-    border: 6px thistle outset;
+    border: 10px thistle outset;
 }
 /* 
 dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden.
 */
 #papasfritas {
-    border: 2px coral ridge;
+    border: 4px coral ridge;
 }
 #papasalhorno {
-    border: 2px brown inset ;
+    border: 4px brown inset ;
 }
 #fideos {
-    border: 2px chartreuse outset ;
+    border: 4px chartreuse outset ;
 }
 * {
     font-size: 70px;
@@ -36,4 +36,10 @@ dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden.
     background-image: url("./images/fuego.webp"); 
     background-size:auto;
     height: 100px;
+}
+#titulo {
+    background-color: cadetblue;
+    margin: 15px;
+    padding: 30px 25px 20px 15px;
+    text-align: center;
 }
