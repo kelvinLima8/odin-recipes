@@ -1,17 +1,25 @@
+/* todo esto es el recetas de odin, pagina principal */
+
 #titulo {
-  background-color: cadetblue;  color:rebeccapurple 
+  background-color: cadetblue;  color:blue;
 }
 li  {
-    color: deeppink;
+    color:darkgoldenrod;
 }
 #papasfritas {
     color: coral;
+    background-color: blue;
+    border: 6px coral ridge;
 }
 #papasalhorno {
-    color:slateblue
+    color:slateblue;
+    background-color:yellowgreen;
+    border: 6px brown inset ;
 }
 #fideos {
-    color:crimson
+    color:crimson;
+    background-color: teal;
+    border: 6px chartreuse outset ;
 }
 /* esto es un comentario, segui estudiando */
 #titulo {
@@ -20,26 +28,78 @@ li  {
 /* 
 dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden.
 */
-#papasfritas {
-    border: 4px coral ridge;
-}
-#papasalhorno {
-    border: 4px brown inset ;
-}
-#fideos {
-    border: 4px chartreuse outset ;
-}
+
 * {
-    font-size: 70px;
+    background-image: url("./images/madera.jpg");
 }
-* {
-    background-image: url("./images/fuego.webp"); 
+
+#papasfritas, #papasalhorno, #fideos {
+    
     background-size:auto;
     height: 100px;
+    font-size: 70px;
 }
 #titulo {
     background-color: cadetblue;
     margin: 15px;
     padding: 30px 25px 20px 15px;
     text-align: center;
+}
+/* aqui empieza papas fritas*/
+
+#papas {
+    color:violet;
+    background-color:beige;
+    border: 10px brown inset;
+}
+#clasico {
+    color: slateblue;
+    border:10px seagreen inset ;
+    background-color:azure;
+}
+.p {
+    color:blanchedalmond;
+    background-color: black;
+}
+.h3 {
+    color: darkolivegreen;
+    background-color: bisque;
+    border:10px blue inset;
+}
+.h32 {
+    color: darkslateblue;
+    background-color: blanchedalmond;
+    border:10px tomato inset;
+}
+/* aca empieza papas al horno */
+
+.papasal {
+    color: orangered;
+    background-color: thistle;
+    border:10px salmon ridge;
+}
+.p2 {
+    color: azure;
+    background-color: darkslategray;
+}
+.Ch3 {
+    color: gold;
+    background-color: slateblue;
+    border:10px seagreen ridge;
+}
+/* aca empieza fideos con salsa */
+
+.Fideos {
+    color: darkgoldenrod;
+    background-color: black;
+    border:10px teal groove;
+}
+.pp {
+    color:darkorchid;
+    background-color:wheat;
+}
+.I {
+    color: royalblue;
+    background-color:purple;
+    border:8px seagreen groove;
 }
