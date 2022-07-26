@@ -1,7 +1,7 @@
 /* todo esto es el recetas de odin, pagina principal */
 
 #titulo {
-  background-color: cadetblue;  color:blue;
+  background-color: cadetblue;  color:darkcyan;
 }
 
 li  {
@@ -14,23 +14,30 @@ li  {
     color: coral;
     background-color: blue;
     border: 6px coral ridge;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 #papasalhorno {
     color:slateblue;
     background-color:yellowgreen;
     border: 6px brown inset ;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 #fideos {
     color:crimson;
     background-color: teal;
     border: 6px chartreuse outset ;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 /* esto es un comentario, segui estudiando */
 #titulo {
     border: 10px thistle outset;
+    border-radius: 10px;
 }
 /* 
 dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden.
@@ -60,12 +67,14 @@ dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden.
     color:violet;
     background-color:beige;
     border: 10px brown inset;
+    border-radius: 20px;
 }
 
 #clasico {
     color: slateblue;
     border:10px seagreen inset ;
     background-color:azure;
+    border-radius: 15px;
 }
 
 .p {
@@ -77,12 +86,14 @@ dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden.
     color: darkolivegreen;
     background-color: bisque;
     border:10px blue inset;
+    border-radius: 5px;
 }
 
 .h32 {
     color: darkslateblue;
     background-color: blanchedalmond;
     border:10px tomato inset;
+    border-radius: 5px;
 }
 
 /* aca empieza papas al horno */
@@ -91,6 +102,7 @@ dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden.
     color: orangered;
     background-color: thistle;
     border:10px salmon ridge;
+    border-radius: 10px;
 }
 
 .p2 {
@@ -102,6 +114,7 @@ dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden.
     color: gold;
     background-color: slateblue;
     border:10px seagreen ridge;
+    border-radius: 8px;
 }
 
 /* aca empieza fideos con salsa */
@@ -110,6 +123,7 @@ dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden.
     color: darkgoldenrod;
     background-color: black;
     border:10px teal groove;
+    border-radius: 15px;
 }
 
 .pp {
@@ -121,4 +135,5 @@ dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden.
     color: royalblue;
     background-color:purple;
     border:8px seagreen groove;
+    border-radius: 10px;
 }
