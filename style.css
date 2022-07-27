@@ -10,6 +10,22 @@
   text-shadow: 2px 3px 4px
 }
 
+a:link {
+    color:black;
+}
+
+a:visited {
+    color: aqua;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: red;
+}
+
 li  {
     color:darkgoldenrod;
     list-style-type: none;
@@ -18,7 +34,7 @@ li  {
 }
 
 #papasfritas {
-    color: coral;
+    colo r: coral;
     background-color: blue;
     border: 6px coral ridge;
     border-radius: 10px;
@@ -26,7 +42,7 @@ li  {
 }
 
 #papasalhorno {
-    color:slateblue;
+    colo r:slateblue;
     background-color:yellowgreen;
     border: 6px brown inset ;
     border-radius: 10px;
@@ -34,7 +50,7 @@ li  {
 }
 
 #fideos {
-    color:crimson;
+    colo r:crimson;
     background-color: teal;
     border: 6px chartreuse outset ;
     border-radius: 10px;
